@@ -8,7 +8,7 @@
     android:background="#000000"
     tools:context=".MainActivity">
 
-    <!-- Title -->
+   
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:contentDescription="App Title" />
 
-    <!-- Subtitle -->
+    
     <TextView
         android:id="@+id/tvSubtitle"
         android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:contentDescription="Instruction text" />
 
-    <!-- Input Field -->
+    
     <EditText
         android:id="@+id/etName"
         android:layout_width="0dp"
@@ -56,7 +56,7 @@
         android:importantForAccessibility="yes"
         android:contentDescription="Name input field" />
 
-    <!-- Minimal Button -->
+   
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:contentDescription="Submit button" />
 
-    <!-- Decorative/Logo Image -->
+    
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="100dp"
